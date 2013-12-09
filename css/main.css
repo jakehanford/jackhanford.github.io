@@ -128,10 +128,13 @@ h3 {
 	border-bottom: 1px solid #516D98;
 }
 
-.photosection {
-	margin-right: auto;
-	margin-left: auto;
-	width: 50%;
+/* Slide Show */
+.photosectionR {
+	float: right;
+}
+
+.photosectionL {
+	float: left;
 }
 
 .blue {
@@ -140,10 +143,10 @@ h3 {
 
 .pictureframe {
 	background-color: #fff;
-	border: 10px solid #fff;
+	/*border: 10px solid #fff;*/
 	-webkit-border-radius: 2px;
 	height: 300px;
-	width: 100%;
+	width: 50%;
 	z-index: 9;
 	margin-right: auto;
 	margin-left: auto;
@@ -160,6 +163,45 @@ h3 {
 	left: 0;
 	width: 100%;
 	top: 0;
+	box-shadow: inset 10px 10px 10px red; 
+}
+
+.slideshow2 {
+	position: relative;
+	z-index: 1;
+}
+
+.slideshow2 img {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	top: 0;
+	box-shadow: inset 10px 10px 10px red; 
+}
+
+.slideshow3 {
+	position: relative;
+	z-index: 1;
+}
+
+.slideshow3 img{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	top: 0;
+	box-shadow: inset 10px 10px 10px red; 
+}
+
+.slideshow4 {
+	position: relative;
+	z-index: 1;
+}
+.slideshow4 img{
+	position: absolute;
+	right: 0;
+	width: 100%;
+	top: 0;
+	box-shadow: inset 10px 10px 10px red; 
 }
 
 .phototext {
